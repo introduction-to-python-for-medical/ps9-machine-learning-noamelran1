@@ -1,2 +1,2 @@
 path: "svc_model.joblib"
-features: ['DFA', 'PPE']
+features: ['PPE', 'DFA']
