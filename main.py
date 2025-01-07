@@ -42,4 +42,4 @@ accuracy = accuracy_score(y_val, y_pred)
 print(f"Accuracy: {accuracy}")
 import joblib
 
-joblib.dump(SVC, 'SVC_model.joblib')
+joblib.dump(SVC, 'svc_model.joblib')
