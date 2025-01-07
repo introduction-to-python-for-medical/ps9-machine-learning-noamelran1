@@ -1,2 +1,2 @@
-path: "SVC_model.joblib
+path: "SVC_model.joblib"
 features:['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)']
