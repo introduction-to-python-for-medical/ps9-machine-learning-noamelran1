@@ -12,10 +12,7 @@ parkinsons_df.head()
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-sns.pairplot(parkinsons_df, vars=['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)', 'MDVP:Flo(Hz)', 'MDVP:Jitter(%)', 'MDVP:Jitter(Abs)', 'status'], hue='status')
-plt.show()
-
-input_features = ['MDVP:Fo(Hz)', 'MDVP:Fhi(Hz)']  
+input_features = ['DFA', 'PPE']  
 output_feature = 'status' 
 
 
