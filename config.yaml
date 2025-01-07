@@ -1,2 +1,2 @@
-path: "SVC_model (3).joblib"
-features:['DFA', 'PPE']
+path: "SVC_model.joblib"
+features: ['DFA', 'PPE']
